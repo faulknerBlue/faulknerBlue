@@ -422,15 +422,16 @@ h5 {
 ==================================================*/
 
 .box-intro {
-    text-align: center;
+ 
     display: table;
     height: 100vh;
-    width: 100%;
+    width: 90%;
 }
 
 .box-intro .table-cell {
     display: table-cell;
     vertical-align: middle;
+    
 }
 
 .box-intro em {
@@ -447,6 +448,17 @@ b i:last-child {
     text-transform: uppercase;
     color: #999;
     line-height: 1.7
+}
+
+
+
+/* making about me text */
+.box-intro .about-me{
+    position: absolute;
+    right:0px;
+    width:50%;
+    padding-top: 10%;
+    
 }
 
 
