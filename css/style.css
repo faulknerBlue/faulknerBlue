@@ -80,6 +80,10 @@ a {
     font-size: 11px;
 }
 
+.icon-name{
+    font-size:30px;
+}
+
 
 /* typography
 ==================================================*/
@@ -95,8 +99,11 @@ h3 {
 }
 
 h5 {
+    font-size: 30px;
     color: #ffbf00;
 }
+
+
 
 
 /* preloader
@@ -181,7 +188,8 @@ h5 {
     position: absolute;
     top: 0;
     left: 0;
-    background: rgba(255, 255, 255, 0.95);
+    /* background: rgba(255, 255, 255, 0.95); */
+    background: black;
     height: 50px;
     width: 100%;
     z-index: 3;
@@ -192,7 +200,7 @@ h5 {
 
 .box-header {
     height: 80px;
-    background: transparent;
+    background: rgb(255, 255, 255);
     box-shadow: none;
 }
 
@@ -450,13 +458,25 @@ b i:last-child {
     line-height: 1.7
 }
 
+.top-content{
+    display: inline-block;
+}
+img.headshot{
+    position: absolute;
+    left:0px;
+    width:50%;
+    padding-top: 5%; 
+}
 
 
 /* making about me text */
-.box-intro .about-me{
+ .box-intro .about-me{
+    float: right;
     position: absolute;
-    right:0px;
-    width:50%;
+    /* background-color: #9a9a9a; */
+    right:10%;
+    padding-left: 10px;
+    width:30%;
     padding-top: 10%;
     
 }
