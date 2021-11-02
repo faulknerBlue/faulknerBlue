@@ -1015,7 +1015,7 @@ footer img {
 .audio-projects h2 {
     color: #393939;
     font-size: 46px;
-    padding-bottom: 20px;
+    padding-top: 100px;
     text-align: center;
 }
 
@@ -1027,6 +1027,10 @@ footer img {
 .audio-projects p {
     color: #777;
     font-size: 18px;
+}
+
+.audio-projects end-pad {
+    padding-bottom: 172px;
 }
 
 
