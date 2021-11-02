@@ -50,7 +50,7 @@ body {
     padding-right: 0;
 }
 
-.main-container {
+.audio-projects {
     padding: 100px 0;
 }
 
@@ -94,13 +94,23 @@ h1 {
     text-transform: uppercase;
 }
 
-h3 {
+h2 {
     color: #393939;
+    font-size: 46px;
+    padding-bottom: 20px;
+    text-align: center;
 }
 
-h5 {
-    font-size: 30px;
-    color: #ffbf00;
+
+h3 {
+    color: #505050;
+    font-size: 36px;
+}
+
+h4 {
+    color: #505050;
+    font-size: 20px;
+    
 }
 
 
@@ -922,9 +932,9 @@ footer img {
 
 .top-bar {
     color: #333;
-    padding: 150px 0 150px;
-    background: -webkit-linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../img/01.jpg);
-    background: linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../img/01.jpg);
+    padding: 200px 0 150px;
+    background: -webkit-linear-gradient( rgba(255, 255, 255, .34), rgba(255, 255, 255, .4)), url(../image_assets/audio_header.png);
+    background: linear-gradient( rgba(255, 255, 255, .34), rgba(255, 255, 255, .4)), url(../image_assets/audio_header.png);
     background-size: cover;
     background-attachment: fixed;
     background-position: center center;
@@ -932,11 +942,12 @@ footer img {
 }
 
 .top-bar h1 {
-    font-size: 60px;
+    font-size: 100px;
     text-transform: uppercase;
     font-weight: 700;
-    color: #999;
+    color: #fff;
     line-height: 50px;
+    text-align: center;
 }
 
 .top-bar p {
@@ -979,7 +990,7 @@ footer img {
 }
 
 
-/* Services page
+/* Audio page
 ==================================================*/
 
 .size-50 {
@@ -992,6 +1003,30 @@ footer img {
 
 .service-box h3 {
     margin-top: 0;
+}
+
+.project_image {
+    height: 375px;
+    width: 500px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.audio-projects h2 {
+    color: #393939;
+    font-size: 46px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.audio-projects h3 {
+    color: #505050;
+    font-size: 36px;
+}
+
+.audio-projects p {
+    color: #777;
+    font-size: 18px;
 }
 
 
@@ -1192,7 +1227,7 @@ textarea:focus {
     .box-intro h5 {
         font-size: 12px;
     }
-    .main-container {
+    .audio-projects {
         padding: 50px 0;
     }
 }
