@@ -1029,6 +1029,24 @@ footer img {
     font-size: 18px;
 }
 
+.project-photos  {
+    float: left;
+    
+    width: 50%;
+    padding: 20px;
+}
+
+.project-info  {
+    float: left;
+    width: 50%;
+    
+    padding: 20px;
+}
+
+.project-entry:after {
+    clear: both;
+}
+
 .audio-projects end-pad {
     padding-bottom: 172px;
 }
