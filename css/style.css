@@ -50,8 +50,8 @@ body {
     padding-right: 0;
 }
 
-.audio-projects {
-    padding: 100px 0;
+.page-projects {
+    padding: 40px 0;
 }
 
 .center {
@@ -191,7 +191,7 @@ h4 {
 }
 
 
-/* headr
+/* header
 ==================================================*/
 
 .box-header {
@@ -200,6 +200,7 @@ h4 {
     left: 0;
     /* background: rgba(255, 255, 255, 0.95); */
     background: black;
+    font:300px;
     height: 50px;
     width: 100%;
     z-index: 3;
@@ -209,6 +210,7 @@ h4 {
 }
 
 .box-header {
+    font:40px;
     height: 80px;
     background: rgb(255, 255, 255);
     box-shadow: none;
@@ -245,6 +247,11 @@ h4 {
 .box-logo {
     display: block;
     padding: 20px;
+    font: 30px;
+}
+.box-logo h5{
+    font-size:30px;
+    color: rgb(169, 23, 23);
 }
 
 .box-primary-nav-trigger {
@@ -462,9 +469,10 @@ b i:last-child {
 }
 
 .box-intro h5 {
+    font-size: 30px;
     letter-spacing: 4px;
     text-transform: uppercase;
-    color: #999;
+    color: rgb(184, 56, 56);
     line-height: 1.7
 }
 
@@ -473,7 +481,7 @@ b i:last-child {
 }
 img.headshot{
     position: absolute;
-    left:0px;
+    padding-left:10px;
     width:50%;
     padding-top: 5%; 
 }
@@ -487,7 +495,7 @@ img.headshot{
     right:10%;
     padding-left: 10px;
     width:30%;
-    padding-top: 10%;
+    padding-top: 20%;
     
 }
 
@@ -993,6 +1001,11 @@ footer img {
 /* Audio page
 ==================================================*/
 
+.demo-reel{
+    padding-top:2px;
+    padding-bottom:40px;
+}
+
 .size-50 {
     font-size: 50px;
 }
@@ -1012,42 +1025,50 @@ footer img {
     padding-bottom: 20px;
 }
 
-.audio-projects h2 {
+.page-projects h2 {
     color: #393939;
     font-size: 46px;
-    padding-top: 100px;
+    padding-bottom: 50px;
     text-align: center;
 }
 
-.audio-projects h3 {
+.page-projects h3 {
     color: #505050;
     font-size: 36px;
 }
 
-.audio-projects p {
+.page-projects p {
     color: #777;
     font-size: 18px;
 }
 
+.project-category{
+    padding-top:50px;
+}
+
+.project-entry{
+    display: flex;
+    align-items:start;
+    justify-content: left;
+    padding-bottom: 40px;
+}
+
 .project-photos  {
     float: left;
-    
     width: 50%;
     padding: 20px;
 }
-
-.project-info  {
+.project-info{
     float: left;
     width: 50%;
-    
-    padding: 20px;
+    padding-left: 20px;
 }
 
 .project-entry:after {
     clear: both;
 }
 
-.audio-projects end-pad {
+.page-projects end-pad {
     padding-bottom: 172px;
 }
 
@@ -1221,7 +1242,7 @@ textarea:focus {
         font-size: 100px;
     }
     .box-intro h5 {
-        font-size: 12px;
+        font-size: 30px;
     }
     .box-primary-nav a {
         padding: 5px 1em;
@@ -1236,6 +1257,7 @@ textarea:focus {
     .top-bar h1 {
         font-size: 40px;
         line-height: 30px;
+        padding-bottom:10px;
     }
     .portfolio .categories-grid .categories ul li {
         float: none;
@@ -1247,10 +1269,10 @@ textarea:focus {
         font-size: 80px;
     }
     .box-intro h5 {
-        font-size: 12px;
+        font-size: 30px;
     }
-    .audio-projects {
-        padding: 50px 0;
+    .page-projects {
+        /* padding: 5px; */
     }
 }
 
@@ -1259,7 +1281,7 @@ textarea:focus {
         font-size: 50px;
     }
     .box-intro h5 {
-        font-size: 12px;
+        font-size: 30px;
     }
     .top-bar h1 {
         font-size: 30px;
