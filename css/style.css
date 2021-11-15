@@ -1018,11 +1018,6 @@ footer img {
 /* Audio page
 ==================================================*/
 
-.demo-reel{
-    padding-top:2px;
-    padding-bottom:40px;
-}
-
 .size-50 {
     font-size: 50px;
 }
@@ -1050,13 +1045,19 @@ footer img {
 }
 
 .page-projects h3 {
-    color: #505050;
+    color: #1a2440;
     font-size: 36px;
+}
+
+.page-projects h4 {
+    color: #505050;
+    font-size: 20px;
 }
 
 .page-projects p {
     color: #777;
-    font-size: 18px;
+    font-size: 14px;
+    padding-bottom: 10px;
 }
 
 .project-category{
@@ -1064,27 +1065,31 @@ footer img {
 }
 
 .project-entry{
-    display: flex;
+    display: stretch;
     align-items:start;
     justify-content: left;
-    padding-bottom: 40px;
+    height: 450px;
+    /* note: the padding is including the height of the entire entry for some reason. so really it pad = p - 450px */
+    padding-bottom: 570px;
+    
 }
 
 .project-photos  {
     float: left;
-    width: 60%;
+    width: 50%;
     padding: 20px;
 }
-.project-info{
+.project-info {
     float: left;
-    width: 80%; 
+    width: 50%; 
     /* DONT FUCKING CHANGE THESE */
     padding-left: 20px;
 }
 
 .project-entry:after {
-    clear: both;
+    clear: both; 
 }
+
 
 .page-projects end-pad {
     padding-bottom: 172px;
