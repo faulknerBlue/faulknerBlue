@@ -76,7 +76,7 @@ a {
 }
 
 .color {
-    color: #ffbf00;
+    color: #b0f222;
     font-size: 11px;
 }
 
@@ -87,6 +87,10 @@ a {
 
 /* typography
 ==================================================*/
+
+.container a{
+    text-decoration:none;
+}
 
 h1 {
     color: #393939;
@@ -154,7 +158,7 @@ h4 {
     width: 100%;
     height: 100%;
     border-radius: 50%;
-    background-color: #ffbf00;
+    background-color: #b0f222;
     opacity: 0.6;
     position: absolute;
     top: 0;
@@ -228,7 +232,7 @@ h4 {
 .box-header.is-fixed {
     position: fixed;
     top: -80px;
-    background-color: rgba(255, 255, 255, 0.96);
+    background-color: rgba(46, 22, 22, 0.96);
     -webkit-transition: -webkit-transform 0.3s;
     transition: -webkit-transform 0.3s;
     transition: transform 0.3s;
@@ -248,15 +252,17 @@ h4 {
     display: block;
     padding: 20px;
     font: 30px;
+    background-color: #1a2440;
+    
 }
 .box-logo h5{
     font-size:30px;
-    color: rgb(169, 23, 23);
+    color: rgb(7, 68, 33);
 }
 
 .box-primary-nav-trigger {
     position: absolute;
-    right: 0;
+    right: 0px;
     top: 0;
     height: 100%;
     width: 50px;
@@ -265,23 +271,29 @@ h4 {
 
 .box-primary-nav-trigger .box-menu-text {
     color: #393939;
+    font-size: 20px;
     text-transform: uppercase;
+    /* left:1px; */
+    padding-right:10px;
     font-weight: 700;
     display: none;
 }
 
 .box-primary-nav-trigger .box-menu-icon {
-    display: inline-block;
+    display: inline-flex;
     position: absolute;
-    left: 50%;
-    top: 50%;
+    left: 90%;
+    top: 103%; 
+    /* this is to move the fucking menu icon bitchass */
     bottom: auto;
     right: auto;
     -webkit-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%);
     width: 18px;
     height: 2px;
-    background-color: #393939;
+    background-color: #6e8dfb;
+    padding-top: 1px;
+    /* color: #6e8dfb; */
     -webkit-transition: background-color 0.3s;
     transition: background-color 0.3s;
     list-style: none;
@@ -293,7 +305,10 @@ h4 {
     width: 100%;
     height: 100%;
     position: absolute;
-    background-color: #393939;
+    /* background-color: #393939;
+     */
+     background-color: #6e8dfb;
+    /* padding-top: 10px; */
     right: 0;
     -webkit-transition: -webkit-transform .3s, top .3s, background-color 0s;
     -webkit-transition: top .3s, background-color 0s, -webkit-transform .3s;
@@ -333,7 +348,7 @@ h4 {
 
 .box-primary-nav-trigger {
     width: 100px;
-    padding-left: 1em;
+    padding-left: -1em;
     background-color: transparent;
     height: 30px;
     line-height: 30px;
@@ -410,7 +425,7 @@ h4 {
 }
 
 .box-primary-nav .box-label {
-    color: #ffbf00;
+    color: #b0f222;
     text-transform: uppercase;
     font-weight: 700;
     font-size: 17px;
@@ -450,7 +465,7 @@ h4 {
  
     display: table;
     height: 100vh;
-    width: 90%;
+    width: 100%;
 }
 
 .box-intro .table-cell {
@@ -465,14 +480,14 @@ h4 {
 }
 
 b i:last-child {
-    color: #ffbf00 !important;
+    color: #b0f222 !important;
 }
 
 .box-intro h5 {
     font-size: 30px;
     letter-spacing: 4px;
     text-transform: uppercase;
-    color: rgb(184, 56, 56);
+    color: #1a2440;
     line-height: 1.7
 }
 
@@ -481,9 +496,10 @@ b i:last-child {
 }
 img.headshot{
     position: absolute;
-    padding-left:10px;
+    /* padding:10px; */
     width:50%;
-    padding-top: 5%; 
+    padding-top: 100px; 
+    padding-bottom:10px;
 }
 
 
@@ -496,6 +512,7 @@ img.headshot{
     padding-left: 10px;
     width:30%;
     padding-top: 20%;
+    
     
 }
 
@@ -762,7 +779,7 @@ img.headshot{
 
 .portfolio .categories-grid .categories ul li a.active {
     margin-left: 0;
-    background-color: #ffbf00;
+    background-color: #b0f222;
     padding: 0px 20px;
     color: white;
     border-radius: 25px;
@@ -819,7 +836,7 @@ img.headshot{
 .portfolio_item .portfolio_item_hover .item_info em {
     font-style: normal;
     display: inline-block;
-    background-color: #ffbf00;
+    background-color: #b0f222;
     padding: 5px 20px;
     border-radius: 25px;
     color: #333;
@@ -903,7 +920,7 @@ footer img {
     right: 10px;
     text-align: center;
     color: #fff;
-    background: rgba(255, 191, 0, 0.8);
+    background: #b0f222;
     visibility: hidden;
     opacity: 0;
     -webkit-transition: opacity .3s 0s, visibility 0s .3s;
@@ -929,7 +946,7 @@ footer img {
 
 .no-touch .cd-top:hover,
 .no-touch .cd-top:focus {
-    background-color: #ffbf00;
+    background-color: #b0f222;
     opacity: 1;
     color: #fff;
 }
@@ -1055,12 +1072,13 @@ footer img {
 
 .project-photos  {
     float: left;
-    width: 50%;
+    width: 60%;
     padding: 20px;
 }
 .project-info{
     float: left;
-    width: 50%;
+    width: 80%; 
+    /* DONT FUCKING CHANGE THESE */
     padding-left: 20px;
 }
 
@@ -1151,7 +1169,7 @@ footer img {
 
 .input-contact > span.active,
 .textarea-contact > span.active {
-    color: #ffbf00;
+    color: #b0f222;
     font-size: 10px;
     top: 0px;
     left: 5px;
@@ -1172,7 +1190,7 @@ textarea:focus {
     height: 30px;
     width: 30px;
     display: inline-block;
-    background: #ffbf00;
+    background: #b0f222;
     text-align: center;
     line-height: 33px;
     margin-right: 10px;
@@ -1186,7 +1204,7 @@ textarea:focus {
 }
 
 .btn-box {
-    background: #ffbf00;
+    background: #b0f222;
     padding: 10px 50px;
     border-radius: 0;
     color: #fff;
@@ -1198,7 +1216,7 @@ textarea:focus {
 
 .btn-box:hover,
 .btn-box:focus {
-    background: #F5B700;
+    background: #b0f222;
     color: #fff;
 }
 
@@ -1213,7 +1231,7 @@ textarea:focus {
 
 .cat-ul li i {
     margin-right: 10px;
-    color: #ffbf00;
+    color: #b0f222;
 }
 
 
@@ -1278,7 +1296,7 @@ textarea:focus {
 
 @media only screen and (max-width: 420px) {
     .box-headline {
-        font-size: 50px;
+        font-size: 5000px;
     }
     .box-intro h5 {
         font-size: 30px;
