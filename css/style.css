@@ -958,8 +958,7 @@ footer img {
 .top-bar {
     color: #333;
     padding: 200px 0 150px;
-    background: -webkit-linear-gradient( rgba(255, 255, 255, .34), rgba(255, 255, 255, .4)), url(../image_assets/audio_header.png);
-    background: linear-gradient( rgba(255, 255, 255, .34), rgba(255, 255, 255, .4)), url(../image_assets/audio_header.png);
+    background: -webkit-linear-gradient( rgba(255, 255, 255, .24), rgba(255, 255, 255, .24)), url(../image_assets/audio_header.png);
     background-size: cover;
     background-attachment: fixed;
     background-position: center center;
