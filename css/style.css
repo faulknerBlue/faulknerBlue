@@ -114,6 +114,7 @@ h3 {
 h4 {
     color: #505050;
     font-size: 20px;
+    padding-top: 10px;
     
 }
 
@@ -1056,38 +1057,69 @@ footer img {
 .page-projects p {
     color: #777;
     font-size: 14px;
-    padding-bottom: 10px;
 }
+
+.page-projects br {
+    padding: 10px;
+    line-height: 10px;
+}
+
 
 .project-category{
     padding-top:50px;
 }
 
 .project-entry{
-    display: stretch;
-    align-items:start;
-    justify-content: left;
-    height: 450px;
+    display: grid;
+
+    grid: 450px / 50% 50%;
+    grid-row-gap: 20px;
+
+    /* align-items: start;
+    justify-content: left; */
+    height: 900px;
+    width: 100%;
     /* note: the padding is including the height of the entire entry for some reason. so really it pad = p - 450px */
-    padding-bottom: 570px;
+    padding-bottom: 450px;
     
 }
 
 .project-photos  {
+    grid-area: 1 / 1 / span 1 / span 1;
     float: left;
-    width: 50%;
-    padding: 20px;
-}
-.project-info {
-    float: left;
-    width: 50%; 
-    /* DONT FUCKING CHANGE THESE */
-    padding-left: 20px;
+    height: 450px;
+       
 }
 
-.project-entry:after {
-    clear: both; 
+.project-description{
+    grid-area: 1 / 2 / span 1 / span 1;
+    float: left;
+    height: 450px;
+    /* DONT FUCKING CHANGE THESE */
+    padding-left: 40px;
 }
+/* .project-description:after {
+    clear: both;
+} */
+
+.left-entry-soundcloud{
+    float: left;
+    grid-area: 2 / 1 / span 1 / span 1; 
+}
+
+.project-summary {
+    grid-area: 2 / 2 / span 1 / span 1; 
+    float: left;
+    height: 450px;
+    padding-left: 40px;
+}
+/* .project-summary:after {
+    clear: both;
+} */
+
+/* .project-entry:after {
+    clear: both; 
+} */
 
 
 .page-projects end-pad {
