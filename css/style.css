@@ -1080,8 +1080,23 @@ footer img {
     height: 900px;
     width: 100%;
     /* note: the padding is including the height of the entire entry for some reason. so really it pad = p - 900px */
-    padding-bottom: 1125px;
     
+    padding-bottom: 1125px;
+}
+
+.project-entry-short{
+    display: grid;
+
+    grid: 450px / 50% 50%;
+    grid-row-gap: 20px;
+
+    /* align-items: start;
+    justify-content: left; */
+    height: 450px;
+    width: 100%;
+    /* note: the padding is including the height of the entire entry for some reason. so really it pad = p - 900px */
+    
+    padding-bottom: 675px;
 }
 
 .project-photos  {
