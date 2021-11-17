@@ -1079,8 +1079,8 @@ footer img {
     justify-content: left; */
     height: 900px;
     width: 100%;
-    /* note: the padding is including the height of the entire entry for some reason. so really it pad = p - 450px */
-    padding-bottom: 450px;
+    /* note: the padding is including the height of the entire entry for some reason. so really it pad = p - 900px */
+    padding-bottom: 1125px;
     
 }
 
