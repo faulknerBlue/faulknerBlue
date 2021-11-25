@@ -499,7 +499,7 @@ img.headshot{
     position: absolute;
     /* padding:10px; */
     width:50%;
-
+    padding-top: 100px; 
     padding-bottom:10px;
 }
 
