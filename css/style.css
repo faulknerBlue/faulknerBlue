@@ -957,6 +957,9 @@ footer img {
 ==================================================*/
 
 .top-bar {
+}
+
+.top-audio-bar {
     color: #333;
     padding: 200px 0 150px;
     background: -webkit-linear-gradient( rgba(255, 255, 255, .24), rgba(255, 255, 255, .24)), url(../image_assets/audio_header.png);
@@ -965,6 +968,17 @@ footer img {
     background-position: center center;
     text-align: center;
 }
+
+.top-code-bar {
+    color: #333;
+    padding: 200px 0 150px;
+    background: -webkit-linear-gradient( rgba(180, 180, 180, .5), rgba(180, 180, 180, .5)), url(../image_assets/code_header.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    text-align: center;
+}
+
 
 .top-bar h1 {
     font-size: 100px;
