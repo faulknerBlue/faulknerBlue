@@ -495,11 +495,12 @@ b i:last-child {
 .top-content{
     display: inline-block;
 }
+
 img.headshot{
     position: absolute;
-    /* padding:10px; */
+    
     width:50%;
-    padding-top: 100px; 
+    padding-top: 80px; 
     padding-bottom:10px;
 }
 
@@ -510,7 +511,7 @@ img.headshot{
     position: absolute;
     /* background-color: #9a9a9a; */
     right:10%;
-    padding-left: 10px;
+    /* padding-left: 10px; */
     width:30%;
     padding-top: 20%;
     
@@ -1172,6 +1173,17 @@ footer img {
 .project-video-feed {
     grid-area: 2 / 1 / span 1 / span 2; 
     float: left;
+    height: 450px;
+    width: 100%;
+    padding-left: 40px;
+    padding-top: 40px;
+}
+
+.insta-feed {
+    display: grid;
+
+    grid: 450px / 25% 25% 25% 25%;
+
     height: 450px;
     width: 100%;
     padding-left: 40px;
