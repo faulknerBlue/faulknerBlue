@@ -1122,7 +1122,7 @@ footer img {
     width: 100%;
     /* note: the padding is including the height of the entire entry for some reason. so really it pad = p - 900px */
     
-    padding-bottom: 1125px;
+    padding-bottom: 1350px;
 }
 
 .project-entry-short{
